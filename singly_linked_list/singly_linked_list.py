@@ -7,7 +7,7 @@ class Node:
 class LinkedList:
     def __init__(self):
         self.head = None  # Stores a node, that corresponds to our first node in the list
-        self.tail = None  # stores a node that is the end of the list
+        self.tail = None  # stores a node that is the end of the list 
 
     def add_to_head(self, value):
         # create a node to add
